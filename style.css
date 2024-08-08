@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+.coin-container {
+    position: absolute;
+    top: 50px; /* Header এর নিচে কিছু জায়গা রাখার জন্য */
+    right: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#buyNowButton {
+    margin-left: 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#attackButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#interface, #secondInterface {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#inputBox, #dobBox {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#submitButton, #showPasswordButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#loadingContainer {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#progressBar {
+    width: 0;
+    height: 10px;
+    background-color: #4CAF50;
+    margin: 0 auto;
+    transition: width 0.1s;
+}
+
+#loadingText {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #ff0000;
+}

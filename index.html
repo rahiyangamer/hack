@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Attack App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- হেডার টেক্সট -->
+    <div class="header">
+        RAHIYAN HACKER 💫
+    </div>
+
+    <!-- কয়েন সংখ্যা, আইকন এবং 'Buy Now' বাটন -->
+    <div class="coin-container">
+        <span>💰</span>
+        <span id="coinCount">100</span> Coins
+        <button id="buyNowButton">Buy Now</button>
+    </div>
+
+    <div class="container">
+        <button id="attackButton">FACEBOOK ATTACK</button>
+        
+        <div id="interface" class="hidden">
+            <textarea id="inputBox" placeholder="Paste Facebook link..."></textarea>
+            <button id="submitButton">Submit</button>
+        </div>
+
+        <div id="secondInterface" class="hidden">
+            <textarea id="dobBox" placeholder="Date of Birth"></textarea>
+            <button id="showPasswordButton">Show Password</button>
+            <div id="loadingContainer" class="hidden">
+                <div id="progressBar"></div>
+                <div id="loadingText">Loading...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
